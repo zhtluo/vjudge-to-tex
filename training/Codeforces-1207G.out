@@ -15,7 +15,7 @@ Vova is rather interested in the new album but he really doesn't have the time t
 
 Mishka doesn't question the purpose of that information, yet he struggles to provide it. Can you please help Mishka answer all Vova's questions?
 
-\Input
+\InputFile
 The first line contains a single integer $n$ ($1 \le n \le 4 \cdot 10^5$) — the number of songs in the album.
 
 Each of the next $n$ lines contains the description of the $i$-th song of the album in the following format:
@@ -33,7 +33,7 @@ Each of the next $m$ lines contains the description of the $j$-th Vova's questio
 
 It's guaranteed that the total length of question strings $t$ doesn't exceed $4 \cdot 10^5$.
 
-\Output
+\OutputFile
 For each question print a single integer — the number of occurrences of the question string $t$ in the name of the $i$-th song of the album as a continuous substring.
 
 \Examples
